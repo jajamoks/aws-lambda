@@ -1,0 +1,4 @@
+export enum CONSTANTS {
+  AWS_PROFILE = 'AWS_PROFILE',
+  AWS_REGION = 'AWS_REGION',
+}

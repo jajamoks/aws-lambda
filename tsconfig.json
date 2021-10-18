@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types", "node_modules/@types/node"],
+    "emitDecoratorMetadata": true,
+    "types": ["mocha", "node"],
+    "baseUrl": "src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@enums/*": ["enums/*"],
+      "@errors/*": ["errors/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist/**/*"]
+}
